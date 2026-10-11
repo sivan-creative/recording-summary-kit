@@ -1,0 +1,5 @@
+config.json
+work/
+nightly/nightly.log
+__pycache__/
+

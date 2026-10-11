@@ -1,0 +1,12 @@
+# Core - always
+faster-whisper>=1.2
+keyring>=25
+
+# Only with an NVIDIA graphics card (transcription ~10-15x faster than real time)
+# nvidia-cublas-cu12
+# nvidia-cudnn-cu12
+
+# Only for "who said what" in recordings with everyone on one track (phone calls, in-person meetings)
+# With an NVIDIA card install torch first from the CUDA index:
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
+# pyannote.audio>=4.0

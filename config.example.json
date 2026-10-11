@@ -1,0 +1,32 @@
+{
+  "_note": "Copied to config.json during setup. Paths may use ~ and %VARS%. Claude fills this in with you.",
+
+  "owner_name": "השם שלך כפי שהוא מופיע בזום",
+  "language": "he",
+  "model": "ivrit-ai/whisper-large-v3-turbo-ct2",
+  "device": "auto",
+  "speaker_label": "דובר",
+
+  "phone_inbox": "G:/My Drive/הקלטות/מהטלפון",
+  "recordings_root": "G:/My Drive/הקלטות",
+  "zoom_inbox": "~/Zoom",
+  "zoom_archive": "G:/My Drive/הקלטות/זום",
+  "transcripts_root": "G:/My Drive/תמלולים",
+  "online_captures": "G:/My Drive/הקלטות/שיעורים מהרשת",
+
+  "topics": ["עבודה", "לקוחות", "הרצאות ולמידה", "בריאות", "משפחה", "בית", "כספים", "שירותים וביורוקרטיה", "אישי"],
+  "summarize_topics": ["עבודה", "לקוחות", "הרצאות ולמידה"],
+
+  "summaries": "files",
+  "summaries_root": "G:/My Drive/סיכומי פגישות",
+
+  "monday": {
+    "summaries_board": null,
+    "summaries_group": null,
+    "group_by_topic": {},
+    "columns": {"date": null, "participants": null, "decisions": null},
+    "tasks_board": null,
+    "tasks_group": null,
+    "task_columns": {"date": null, "link_to_summary": null}
+  }
+}
