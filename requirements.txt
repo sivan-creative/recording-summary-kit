@@ -2,6 +2,10 @@
 faster-whisper>=1.2
 keyring>=25
 
+# Recording calls on the computer (scripts/record_call.pyw): speakers + microphone, no virtual cable
+soundcard>=0.4
+sounddevice>=0.4
+
 # Only with an NVIDIA graphics card (transcription ~10-15x faster than real time)
 # nvidia-cublas-cu12
 # nvidia-cudnn-cu12
